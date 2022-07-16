@@ -4,7 +4,7 @@ public:
         
          int res = ar[0];
     for (int i = 1; i < ar.size(); i++)
-        res = res ^ ar[i];
+        res = res ^ ar[i]; // XOR OF ALL ELEMENTS
  
     return res;
     }
